@@ -4,7 +4,7 @@ import styles from "./MainNav.module.css";
 function MainNav() {
     return (
         <header className={styles.header}>
-            <h1 className="px-5">My react app</h1>
+            <h1 className="px-5 text-warning">My react app</h1>
             <nav className="my-3 px-5">
                 <ul className="d-flex justify-content-end list-unstyled">
                     <li className="mx-3">
